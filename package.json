@@ -1,0 +1,22 @@
+{
+    "name": "heroku-scheduler",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon app.ts",
+        "postinstall": "tsc",
+        "build": "tsc",
+        "start": "node app.js"
+
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "nodemon": "^2.0.22",
+        "ts-node": "^10.9.1",
+        "twilio": "^4.9.0"
+    }
+}
